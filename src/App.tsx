@@ -192,7 +192,26 @@ function App() {
           </button>
         </div>
       </form>
-      <a href="https://github.com/andrewpatasik/data-mahasiswa-json" className="mt-auto ml-auto m-4 underline text-indigo-700 hover:text-indigo-500" target="_blank" referrerPolicy="no-referrer">Check the Repo!</a>
+      <div className="mt-auto ml-auto m-4">
+        <a
+          href="https://github.com/andrewpatasik/data-mahasiswa-json"
+          className="underline text-indigo-700 hover:text-indigo-500"
+          target="_blank"
+          referrerPolicy="no-referrer"
+        >
+          Check the Repo!
+        </a>
+        <span className="mx-2">||</span>
+        <a
+          href="https://andrewpatasik.space"
+          className="underline text-indigo-700 hover:text-indigo-500"
+          target="_blank"
+          referrerPolicy="no-referrer"
+        >
+          andrewpatasik.space
+        </a>
+      </div>
+
       {modalOpen && <Modal modalContent={jsonPayload} closeModal={close} />}
     </div>
   );
