@@ -192,7 +192,7 @@ function App() {
           </button>
         </div>
       </form>
-      <a href="" className="mt-auto ml-auto m-4 underline text-indigo-700 hover:text-indigo-500" target="_blank" referrerPolicy="no-referrer">Check the Repo!</a>
+      <a href="https://github.com/andrewpatasik/data-mahasiswa-json" className="mt-auto ml-auto m-4 underline text-indigo-700 hover:text-indigo-500" target="_blank" referrerPolicy="no-referrer">Check the Repo!</a>
       {modalOpen && <Modal modalContent={jsonPayload} closeModal={close} />}
     </div>
   );
